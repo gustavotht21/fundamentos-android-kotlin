@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Fundamentos-android-kotlin</string>
+    <string name="title_activity_product_create">ProductCreate</string>
 </resources>
