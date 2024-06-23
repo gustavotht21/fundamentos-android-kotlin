@@ -17,7 +17,7 @@ class ProductCreate : AppCompatActivity(R.layout.activity_product_create) {
 
         Log.i("ProductCreate", "onCreate: Teste")
 
-        val saveButton = findViewById<Button>(R.id.button)
+        val saveButton = findViewById<Button>(R.id.saveButton)
         saveButton.setOnClickListener {
             val nameField = findViewById<EditText>(R.id.name)
             val name = nameField.text.toString()
